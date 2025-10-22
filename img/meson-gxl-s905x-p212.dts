@@ -1392,7 +1392,7 @@
 				#size-cells = <0x00>;
 				bus-width = <0x04>;
 				cap-sd-highspeed;
-				max-frequency = <0x5f5e100>;
+				max-frequency = <0xbebc200>;
 				non-removable;
 				disable-wp;
 				keep-power-in-suspend;
@@ -1403,7 +1403,7 @@
 
 				wifi@1 {
 					reg = <0x01>;
-					compatible = "brcm,bcm4329-fmac";
+					compatible = "realtek,rtl8189fs\0realtek,rtl8189ftv";
 					phandle = <0x99>;
 				};
 			};
@@ -1731,7 +1731,7 @@
 
 	sdio-pwrseq {
 		compatible = "mmc-pwrseq-simple";
-		reset-gpios = <0x15 0x55 0x01>;
+		reset-gpios = <0x15 0x4c 0x01>;
 		clocks = <0x16>;
 		clock-names = "ext_clock";
 		phandle = <0x26>;
