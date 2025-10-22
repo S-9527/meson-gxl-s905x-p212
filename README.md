@@ -5,7 +5,7 @@
 First, clone the repository from GitHub to your local machine:
 
 ```bash
-git clone https://https://github.com/S-9527/meson-gxl-s905x-p212
+git clone https://github.com/S-9527/meson-gxl-s905x-p212
 ```
 
 Navigate to the downloaded directory:
