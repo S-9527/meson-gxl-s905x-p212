@@ -1,1 +1,0 @@
-# meson-gxl-s905x-p212.dtb wifi 板载wifi修复
