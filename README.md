@@ -26,7 +26,7 @@ cp /boot/dtb/amlogic/meson-gxl-s905x-p212.dtb recovery/
 ### 3. Copy Source Files to `/boot/dtb/amlogic/`
 
 ```bash
-cp fixed-wifi/meson-gxl-s905x-p212.dtb /boot/dtb/amlogic/
+cp repair/meson-gxl-s905x-p212.dtb /boot/dtb/amlogic/
 ```
 
 ### 4. Reboot the System
